@@ -1,0 +1,109 @@
+.flex{
+    border-radius: 30px;
+    margin-top: 60px;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #B8D7FF;
+    margin: 60px 30px 70px 30px;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.p {
+    font-size: 18px;
+}
+
+.input{
+    width: 1000px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 36px;
+}
+
+.input:hover {
+    border-color: #ccc;
+}
+.input:focus{
+    border-color: #9147ff;
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+li {
+    border-bottom: 1px solid gray;
+}
+
+.bottom{
+    display: flex;
+    border-top: 1px solid gray;
+}
+
+.left-side, .right-side{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.left-side button, .right-side button{
+    margin: 0 3px 0 3px;
+}
+
+.left-side p{
+    padding-left: 4px;
+}
+
+.button {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 150px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button:hover { 
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+}
